@@ -53,7 +53,7 @@ if __name__ == '__main__':
     #plot 1 - twin primes
     plt.subplot(1, 2, 1)
     plt.scatter(xValsTwin, kCount,marker=".", color='red')
-    plt.ylabel("Range from y to (y-1000)")
+    plt.ylabel("Range from (y*10^3-1000) to y*10^3")
     plt.xlabel("Number of twin primes per 1000")
     #plot 2 - primes
     plt.subplot(1, 2, 2)
